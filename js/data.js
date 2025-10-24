@@ -10,6 +10,7 @@ const activities = [
         title: "Sinnesschätze entdecken",
         ageGroup: "babies",
         areas: ["natur"],
+        themes: ["wald", "herbst"],
         materials: ["Stoffsäckchen", "Naturmaterialien (Tannenzapfen, glatte Steine)", "weiche Tücher"],
         duration: "10-15 Min",
         description: "Babys erkunden verschiedene Naturmaterialien mit allen Sinnen - Tasten, Sehen, Riechen.",
@@ -272,6 +273,7 @@ const activities = [
         title: "Tierlaute-Memory",
         ageGroup: "krippe",
         areas: ["sprache", "natur"],
+        themes: ["tiere", "bauernhof"],
         materials: ["Bilder von Tieren", "eigene Stimme"],
         duration: "10-15 Min",
         description: "Kinder lernen Tierlaute kennen und erweitern ihren Wortschatz.",
@@ -1158,10 +1160,251 @@ const activities = [
         title: "Telefonieren üben",
         ageGroup: "school",
         areas: ["sprache", "ethik"],
+        themes: ["familie"],
         materials: ["Spieltelefone oder ausrangierte Telefone"],
         duration: "15 Min",
         description: "Kommunikation am Telefon für Notfälle vorbereiten.",
         shortInstruction: "Übe Namen nennen, Adresse sagen, höfliche Begrüßung und Verabschiedung."
+    },
+
+    // ===== Themen-spezifische Aktivitäten =====
+
+    // Frühling
+    {
+        id: 116,
+        title: "Blumen pflanzen",
+        ageGroup: "krippe",
+        areas: ["natur", "gesundheit"],
+        themes: ["fruehling"],
+        materials: ["Blumentöpfe", "Erde", "Blumensamen", "Gießkanne"],
+        duration: "20-25 Min",
+        description: "Im Frühling Blumen säen und Wachstum beobachten.",
+        shortInstruction: "Pflanze gemeinsam Frühlingsblumen, gieße und beobachte täglich das Wachstum."
+    },
+    {
+        id: 117,
+        title: "Osterkörbchen basteln",
+        ageGroup: "kiga",
+        areas: ["natur"],
+        themes: ["ostern", "fruehling"],
+        materials: ["Bastelpapier", "Kleber", "Schere", "Deko"],
+        duration: "30-40 Min",
+        description: "Kreatives Gestalten für das Osterfest.",
+        shortInstruction: "Bastle bunte Osterkörbchen und dekoriere sie mit Frühlingsmotiven."
+    },
+
+    // Sommer
+    {
+        id: 118,
+        title: "Wasserspiele im Garten",
+        ageGroup: "krippe",
+        areas: ["bewegung", "natur"],
+        themes: ["sommer", "wasser"],
+        materials: ["Planschbecken", "Wasserspielzeug", "Becher"],
+        duration: "30-40 Min",
+        description: "Erfrischende Wasserspiele an heißen Tagen.",
+        shortInstruction: "Richte eine Wasserstation ein - schöpfen, gießen, spritzen an heißen Sommertagen."
+    },
+    {
+        id: 119,
+        title: "Barfußpfad im Garten",
+        ageGroup: "kiga",
+        areas: ["bewegung", "natur"],
+        themes: ["sommer"],
+        materials: ["Sand", "Gras", "Steine", "Rindenmulch"],
+        duration: "20 Min",
+        description: "Sinnlicher Barfußpfad mit verschiedenen Materialien.",
+        shortInstruction: "Lege einen Pfad mit verschiedenen Materialien an - Kinder laufen barfuß."
+    },
+
+    // Herbst
+    {
+        id: 120,
+        title: "Blätter sammeln und pressen",
+        ageGroup: "kiga",
+        areas: ["natur"],
+        themes: ["herbst", "wald"],
+        materials: ["Sammelbeutel", "Bücher zum Pressen", "Papier"],
+        duration: "30 Min + Trockenzeit",
+        description: "Herbstblätter sammeln, bestimmen und pressen.",
+        shortInstruction: "Sammle bunte Herbstblätter, presse sie in Büchern, gestalte später Bilder damit."
+    },
+    {
+        id: 121,
+        title: "Erntedank-Fest feiern",
+        ageGroup: "kiga",
+        areas: ["ethik", "gesundheit"],
+        themes: ["erntedank", "herbst"],
+        materials: ["Obst", "Gemüse", "Körbchen", "Deko"],
+        duration: "40-60 Min",
+        description: "Dankbarkeit für die Ernte feiern.",
+        shortInstruction: "Dekoriere mit Herbstfrüchten, singe Lieder, teile Obst und Gemüse."
+    },
+    {
+        id: 122,
+        title: "Kastanien-Tiere basteln",
+        ageGroup: "krippe",
+        areas: ["natur"],
+        themes: ["herbst", "tiere"],
+        materials: ["Kastanien", "Zahnstocher", "Wackelaugen", "Kleber"],
+        duration: "20-30 Min",
+        description: "Kreatives Gestalten mit Naturmaterialien.",
+        shortInstruction: "Bastle Tiere aus Kastanien - verbinde mit Zahnstochern, klebe Augen auf."
+    },
+
+    // Winter
+    {
+        id: 123,
+        title: "Schneemann bauen",
+        ageGroup: "krippe",
+        areas: ["bewegung", "natur"],
+        themes: ["winter"],
+        materials: ["Schnee", "Möhre", "Kohle", "Schal", "Hut"],
+        duration: "30 Min",
+        description: "Klassische Winteraktivität im Freien.",
+        shortInstruction: "Forme Schneekugeln, baue einen Schneemann, dekoriere mit Naturmaterialien."
+    },
+    {
+        id: 124,
+        title: "Adventskranz gestalten",
+        ageGroup: "kiga",
+        areas: ["natur", "ethik"],
+        themes: ["weihnachten", "winter"],
+        materials: ["Tannenzweige", "Kerzen", "Deko", "Draht"],
+        duration: "40 Min",
+        description: "Gemeinsam einen Adventskranz binden.",
+        shortInstruction: "Binde Tannenzweige zu einem Kranz, stecke Kerzen hinein, dekoriere."
+    },
+    {
+        id: 125,
+        title: "Plätzchen backen",
+        ageGroup: "kiga",
+        areas: ["gesundheit", "natur"],
+        themes: ["weihnachten", "winter"],
+        materials: ["Teig", "Ausstechformen", "Ofen", "Deko"],
+        duration: "60 Min",
+        description: "Weihnachtsbäckerei mit Kindern.",
+        shortInstruction: "Rolle Teig aus, steche Formen aus, backe und verziere gemeinsam Plätzchen."
+    },
+
+    // Fasching
+    {
+        id: 126,
+        title: "Masken basteln",
+        ageGroup: "kiga",
+        areas: ["natur", "emotionen"],
+        themes: ["fasching"],
+        materials: ["Pappteller", "Farben", "Federn", "Glitzer", "Gummiband"],
+        duration: "30-40 Min",
+        description: "Kreative Faschingsmasken gestalten.",
+        shortInstruction: "Gestalte fantasievolle Masken aus Papptellern - male, klebe, dekoriere."
+    },
+    {
+        id: 127,
+        title: "Faschings-Bewegungsspiele",
+        ageGroup: "krippe",
+        areas: ["bewegung", "emotionen"],
+        themes: ["fasching"],
+        materials: ["Musik", "Kostüme", "Tücher"],
+        duration: "20-30 Min",
+        description: "Lustige Bewegungsspiele zur Faschingszeit.",
+        shortInstruction: "Tanze zu Faschingsmusik, spiele Stopptanz, bewege dich wie verschiedene Tiere."
+    },
+
+    // Bauernhof & Tiere
+    {
+        id: 128,
+        title: "Bauernhof-Rollenspiel",
+        ageGroup: "kiga",
+        areas: ["sprache", "ethik"],
+        themes: ["bauernhof", "tiere"],
+        materials: ["Spielzeug-Tiere", "Stall", "Traktor", "Stroh"],
+        duration: "30-40 Min",
+        description: "Bauernhof nachspielen und Tiernamen lernen.",
+        shortInstruction: "Richte eine Bauernhof-Ecke ein, spiele Tierlaute nach, füttere Tiere."
+    },
+    {
+        id: 129,
+        title: "Besuch am Bauernhof",
+        ageGroup: "kiga",
+        areas: ["natur", "tiere"],
+        themes: ["bauernhof", "tiere"],
+        materials: ["Ausflug zu einem Bauernhof"],
+        duration: "2-3 Stunden",
+        description: "Echter Bauernhof-Besuch mit allen Sinnen.",
+        shortInstruction: "Besuche einen Bauernhof, beobachte Tiere, darf streicheln und füttern."
+    },
+
+    // Fahrzeuge
+    {
+        id: 130,
+        title: "Fahrzeug-Parcours",
+        ageGroup: "krippe",
+        areas: ["bewegung"],
+        themes: ["fahrzeuge"],
+        materials: ["Bobby-Cars", "Laufräder", "Hütchen", "Straßenmarkierungen"],
+        duration: "25-30 Min",
+        description: "Motorik mit Fahrzeugen trainieren.",
+        shortInstruction: "Baue einen Parcours mit Kurven und Hindernissen - Kinder fahren mit Fahrzeugen."
+    },
+    {
+        id: 131,
+        title: "Baustelle spielen",
+        ageGroup: "kiga",
+        areas: ["natur", "bewegung"],
+        themes: ["fahrzeuge"],
+        materials: ["Baufahrzeuge", "Sand", "Steine", "Holzklötze"],
+        duration: "40 Min",
+        description: "Baustelle nachspielen fördert Kreativität.",
+        shortInstruction: "Richte eine Sandbaustelle ein - baggere, transportiere, baue mit Fahrzeugen."
+    },
+
+    // Körper & Familie
+    {
+        id: 132,
+        title: "Familien-Fotoalbum gestalten",
+        ageGroup: "krippe",
+        areas: ["emotionen", "sprache"],
+        themes: ["familie"],
+        materials: ["Fotos der Familien", "Album", "Kleber", "Stifte"],
+        duration: "20-30 Min",
+        description: "Familienmitglieder kennenlernen und benennen.",
+        shortInstruction: "Klebe Familienfotos ein, benenne Personen, erzähle von Familien."
+    },
+    {
+        id: 133,
+        title: "Körperumrisse malen",
+        ageGroup: "kiga",
+        areas: ["natur", "gesundheit"],
+        themes: ["koerper"],
+        materials: ["großes Papier", "Stifte", "Farben"],
+        duration: "30 Min",
+        description: "Körperwahrnehmung durch Umrisse zeichnen.",
+        shortInstruction: "Lege ein Kind auf Papier, zeichne den Umriss, male Kleidung und Gesicht."
+    },
+
+    // Farben
+    {
+        id: 134,
+        title: "Regenbogen-Experiment",
+        ageGroup: "kiga",
+        areas: ["natur"],
+        themes: ["farben", "wasser"],
+        materials: ["Wasser", "Spiegel", "Sonnenlicht"],
+        duration: "15-20 Min",
+        description: "Regenbogen selbst erzeugen.",
+        shortInstruction: "Stelle eine Schüssel mit Wasser in die Sonne, halte einen Spiegel hinein - entdecke Regenbogen."
+    },
+    {
+        id: 135,
+        title: "Farbentag",
+        ageGroup: "krippe",
+        areas: ["natur", "sprache"],
+        themes: ["farben"],
+        materials: ["Gegenstände in einer Farbe", "Kleidung"],
+        duration: "ganzer Tag",
+        description: "Ein Tag ganz im Zeichen einer Farbe.",
+        shortInstruction: "Wähle eine Farbe - alle tragen sie, suchen sie, malen damit, essen sie."
     }
 ];
 
@@ -1181,4 +1424,29 @@ const ageGroups = {
     "krippe": { label: "Krippe (1-3)", icon: "🧸" },
     "kiga": { label: "Kindergarten (3-5)", icon: "🎨" },
     "school": { label: "Schulvorbereitung", icon: "🎒" }
+};
+
+// Themen-Definitionen
+const themes = {
+    // Jahreszeiten
+    fruehling: { name: "Frühling", icon: "🌸", category: "season" },
+    sommer: { name: "Sommer", icon: "☀️", category: "season" },
+    herbst: { name: "Herbst", icon: "🍂", category: "season" },
+    winter: { name: "Winter", icon: "❄️", category: "season" },
+
+    // Feste
+    ostern: { name: "Ostern", icon: "🐰", category: "celebration" },
+    weihnachten: { name: "Weihnachten", icon: "🎄", category: "celebration" },
+    fasching: { name: "Fasching", icon: "🎭", category: "celebration" },
+    erntedank: { name: "Erntedank", icon: "🌾", category: "celebration" },
+
+    // Beliebte Themen
+    tiere: { name: "Tiere", icon: "🐾", category: "topic" },
+    bauernhof: { name: "Bauernhof", icon: "🚜", category: "topic" },
+    wald: { name: "Wald", icon: "🌲", category: "topic" },
+    farben: { name: "Farben", icon: "🎨", category: "topic" },
+    koerper: { name: "Körper", icon: "👤", category: "topic" },
+    fahrzeuge: { name: "Fahrzeuge", icon: "🚗", category: "topic" },
+    familie: { name: "Familie", icon: "👨‍👩‍👧", category: "topic" },
+    wasser: { name: "Wasser", icon: "💧", category: "topic" }
 };

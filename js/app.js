@@ -6,12 +6,15 @@
 // ===== State Management =====
 let currentAgeGroup = null;
 let currentEducationArea = 'all';
+let currentTheme = 'all';
 let displayedActivityIds = [];
 
 // ===== DOM Elements =====
 const ageButtons = document.querySelectorAll('.age-btn');
 const filterButtons = document.querySelectorAll('.filter-btn');
+const themeButtons = document.querySelectorAll('.theme-btn');
 const filterSection = document.getElementById('filterSection');
+const themeSection = document.getElementById('themeSection');
 const activitiesGrid = document.getElementById('activitiesGrid');
 const activitiesTitle = document.getElementById('activitiesTitle');
 const newIdeasBtn = document.getElementById('newIdeasBtn');
@@ -30,12 +33,18 @@ function init() {
         button.addEventListener('click', () => handleFilterSelection(button));
     });
 
+    // Event Listeners für Themen-Filter
+    themeButtons.forEach(button => {
+        button.addEventListener('click', () => handleThemeSelection(button));
+    });
+
     // Event Listener für "Neue Ideen" Button (F4)
     newIdeasBtn.addEventListener('click', loadNewActivities);
 
     // Initial verstecke Aktivitätsbereich und Filter
     activitiesSection.style.display = 'none';
     filterSection.style.display = 'none';
+    themeSection.style.display = 'none';
 }
 
 // ===== F1: Altersauswahl =====
@@ -56,11 +65,17 @@ function handleAgeSelection(button) {
     filterButtons.forEach(btn => btn.classList.remove('active'));
     filterButtons[0].classList.add('active'); // "Alle Bereiche" aktivieren
 
+    // Reset Themen auf "Alle"
+    currentTheme = 'all';
+    themeButtons.forEach(btn => btn.classList.remove('active'));
+    themeButtons[0].classList.add('active'); // "Alle Themen" aktivieren
+
     // Reset displayedActivityIds
     displayedActivityIds = [];
 
-    // Zeige Filter-Sektion
+    // Zeige Filter-Sektionen
     filterSection.style.display = 'block';
+    themeSection.style.display = 'block';
 
     // Zeige Aktivitäten
     loadActivities();
@@ -95,6 +110,29 @@ function handleFilterSelection(button) {
     activitiesSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
+// ===== Themen-Filter =====
+function handleThemeSelection(button) {
+    const selectedTheme = button.dataset.theme;
+
+    // Entferne "active" von allen Themen-Buttons
+    themeButtons.forEach(btn => btn.classList.remove('active'));
+
+    // Füge "active" zum gewählten Button hinzu
+    button.classList.add('active');
+
+    // Setze aktuelles Thema
+    currentTheme = selectedTheme;
+
+    // Reset displayedActivityIds
+    displayedActivityIds = [];
+
+    // Lade Aktivitäten neu mit Themen-Filter
+    loadActivities();
+
+    // Scroll zu Aktivitäten
+    activitiesSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
 // ===== F3: Aktivitäten anzeigen =====
 function loadActivities() {
     if (!currentAgeGroup) return;
@@ -108,6 +146,13 @@ function loadActivities() {
     if (currentEducationArea !== 'all') {
         filteredActivities = filteredActivities.filter(
             activity => activity.areas.includes(currentEducationArea)
+        );
+    }
+
+    // Zusätzlicher Filter nach Thema
+    if (currentTheme !== 'all') {
+        filteredActivities = filteredActivities.filter(
+            activity => activity.themes && activity.themes.includes(currentTheme)
         );
     }
 
@@ -135,6 +180,11 @@ function loadActivities() {
     if (currentEducationArea !== 'all') {
         const areaName = educationAreas[currentEducationArea].name;
         titleText += ` - ${areaName}`;
+    }
+
+    if (currentTheme !== 'all') {
+        const themeName = themes[currentTheme].name;
+        titleText += ` - ${themeName}`;
     }
 
     activitiesTitle.textContent = titleText;
