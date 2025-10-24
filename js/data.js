@@ -4,11 +4,11 @@
  */
 
 const activities = [
-    // ===== Altersgruppe 0-1 Jahr =====
+    // ===== Babys (0-1 Jahr) =====
     {
         id: 1,
         title: "Sinnesschätze entdecken",
-        ageGroup: "0-1",
+        ageGroup: "babies",
         areas: ["natur"],
         materials: ["Stoffsäckchen", "Naturmaterialien (Tannenzapfen, glatte Steine)", "weiche Tücher"],
         duration: "10-15 Min",
@@ -18,7 +18,7 @@ const activities = [
     {
         id: 2,
         title: "Kuckuck-Spiele",
-        ageGroup: "0-1",
+        ageGroup: "babies",
         areas: ["emotionen"],
         materials: ["Tuch", "eigene Hände"],
         duration: "5-10 Min",
@@ -28,7 +28,7 @@ const activities = [
     {
         id: 3,
         title: "Spiegelspiele",
-        ageGroup: "0-1",
+        ageGroup: "babies",
         areas: ["emotionen"],
         materials: ["Babysicherer Spiegel", "weiche Unterlage"],
         duration: "5-10 Min",
@@ -38,7 +38,7 @@ const activities = [
     {
         id: 4,
         title: "Bewegungslieder",
-        ageGroup: "0-1",
+        ageGroup: "babies",
         areas: ["bewegung", "sprache"],
         materials: ["keine"],
         duration: "10-15 Min",
@@ -48,7 +48,7 @@ const activities = [
     {
         id: 5,
         title: "Knisterdecke erforschen",
-        ageGroup: "0-1",
+        ageGroup: "babies",
         areas: ["natur"],
         materials: ["Knisterpapier", "verschiedene Stoffe", "sichere Befestigung"],
         duration: "10-15 Min",
@@ -58,7 +58,7 @@ const activities = [
     {
         id: 6,
         title: "Wasserspiele beim Wickeln",
-        ageGroup: "0-1",
+        ageGroup: "babies",
         areas: ["gesundheit"],
         materials: ["lauwarmes Wasser", "weiche Schwämme", "Waschlappen"],
         duration: "5-10 Min",
@@ -68,7 +68,7 @@ const activities = [
     {
         id: 7,
         title: "Greifübungen mit Tüchern",
-        ageGroup: "0-1",
+        ageGroup: "babies",
         areas: ["bewegung"],
         materials: ["bunte Tücher", "Chiffonstoffe"],
         duration: "10 Min",
@@ -78,7 +78,7 @@ const activities = [
     {
         id: 8,
         title: "Klangschale erleben",
-        ageGroup: "0-1",
+        ageGroup: "babies",
         areas: ["natur"],
         materials: ["Klangschale", "weicher Schlägel"],
         duration: "5-10 Min",
@@ -88,7 +88,7 @@ const activities = [
     {
         id: 9,
         title: "Babygymnastik",
-        ageGroup: "0-1",
+        ageGroup: "babies",
         areas: ["bewegung", "gesundheit"],
         materials: ["weiche Matte", "eventuell Musik"],
         duration: "10-15 Min",
@@ -98,7 +98,7 @@ const activities = [
     {
         id: 10,
         title: "Fühlbuch erkunden",
-        ageGroup: "0-1",
+        ageGroup: "babies",
         areas: ["sprache", "natur"],
         materials: ["Stoffbuch", "verschiedene Texturen"],
         duration: "5-10 Min",
@@ -108,7 +108,7 @@ const activities = [
     {
         id: 11,
         title: "Rassel-Orchester",
-        ageGroup: "0-1",
+        ageGroup: "babies",
         areas: ["natur"],
         materials: ["verschiedene Rasseln", "Greiflinge mit Geräuschen"],
         duration: "10 Min",
@@ -118,7 +118,7 @@ const activities = [
     {
         id: 12,
         title: "Fingerspiele",
-        ageGroup: "0-1",
+        ageGroup: "babies",
         areas: ["sprache", "emotionen"],
         materials: ["eigene Hände"],
         duration: "5-10 Min",
@@ -128,7 +128,7 @@ const activities = [
     {
         id: 13,
         title: "Lichtspiele",
-        ageGroup: "0-1",
+        ageGroup: "babies",
         areas: ["natur"],
         materials: ["Taschenlampe", "buntes Transparentpapier"],
         duration: "5-10 Min",
@@ -138,7 +138,7 @@ const activities = [
     {
         id: 14,
         title: "Schaukeln und Wiegen",
-        ageGroup: "0-1",
+        ageGroup: "babies",
         areas: ["bewegung", "emotionen"],
         materials: ["eigene Arme", "Tuch oder Hängematte"],
         duration: "5-15 Min",
@@ -148,7 +148,7 @@ const activities = [
     {
         id: 15,
         title: "Pusten-Spiele",
-        ageGroup: "0-1",
+        ageGroup: "babies",
         areas: ["gesundheit", "emotionen"],
         materials: ["Seifenblasen", "Federn"],
         duration: "5-10 Min",
@@ -160,7 +160,7 @@ const activities = [
     {
         id: 16,
         title: "Schüttübungen mit Alltagsmaterial",
-        ageGroup: "1-2",
+        ageGroup: "krippe",
         areas: ["bewegung"],
         materials: ["Plastikflaschen", "Reis, Linsen, Wasser", "stabiler Untergrund"],
         duration: "15-20 Min",
@@ -170,7 +170,7 @@ const activities = [
     {
         id: 17,
         title: "Tierlaute-Memory",
-        ageGroup: "1-2",
+        ageGroup: "krippe",
         areas: ["sprache", "natur"],
         materials: ["Bilder von Tieren", "eigene Stimme"],
         duration: "10-15 Min",
@@ -180,7 +180,7 @@ const activities = [
     {
         id: 18,
         title: "Hindernisparcours",
-        ageGroup: "1-2",
+        ageGroup: "krippe",
         areas: ["bewegung"],
         materials: ["Kissen", "Kartons", "Decken"],
         duration: "15-20 Min",
@@ -190,7 +190,7 @@ const activities = [
     {
         id: 19,
         title: "Erste Mal-Erfahrungen",
-        ageGroup: "1-2",
+        ageGroup: "krippe",
         areas: ["natur"],
         materials: ["essbare Fingerfarben", "großes Papier", "Schürze"],
         duration: "15-20 Min",
@@ -200,7 +200,7 @@ const activities = [
     {
         id: 20,
         title: "Bauklötze stapeln",
-        ageGroup: "1-2",
+        ageGroup: "krippe",
         areas: ["natur"],
         materials: ["große Bauklötze", "weiche Unterlage"],
         duration: "15-20 Min",
@@ -210,7 +210,7 @@ const activities = [
     {
         id: 21,
         title: "Wasserschöpfen",
-        ageGroup: "1-2",
+        ageGroup: "krippe",
         areas: ["gesundheit", "natur"],
         materials: ["zwei Schüsseln", "Wasser", "Becher, Löffel"],
         duration: "20 Min",
@@ -220,7 +220,7 @@ const activities = [
     {
         id: 22,
         title: "Tanzspiele",
-        ageGroup: "1-2",
+        ageGroup: "krippe",
         areas: ["bewegung", "emotionen"],
         materials: ["Musik", "Raum zum Bewegen"],
         duration: "10-15 Min",
@@ -230,7 +230,7 @@ const activities = [
     {
         id: 23,
         title: "Sortierspiele",
-        ageGroup: "1-2",
+        ageGroup: "krippe",
         areas: ["natur"],
         materials: ["verschiedene Gegenstände", "Schachteln"],
         duration: "15 Min",
@@ -240,7 +240,7 @@ const activities = [
     {
         id: 24,
         title: "Bilderbuch-Zeit",
-        ageGroup: "1-2",
+        ageGroup: "krippe",
         areas: ["sprache", "emotionen"],
         materials: ["stabile Bilderbücher", "gemütliche Sitzgelegenheit"],
         duration: "10-15 Min",
@@ -250,7 +250,7 @@ const activities = [
     {
         id: 25,
         title: "Knetmasse erforschen",
-        ageGroup: "1-2",
+        ageGroup: "krippe",
         areas: ["natur"],
         materials: ["selbstgemachte Knetmasse", "Ausstechformen"],
         duration: "15-20 Min",
@@ -260,7 +260,7 @@ const activities = [
     {
         id: 26,
         title: "Ball-Spiele",
-        ageGroup: "1-2",
+        ageGroup: "krippe",
         areas: ["bewegung"],
         materials: ["weiche Bälle in verschiedenen Größen"],
         duration: "15 Min",
@@ -270,7 +270,7 @@ const activities = [
     {
         id: 27,
         title: "Natur-Schatzsuche",
-        ageGroup: "1-2",
+        ageGroup: "krippe",
         areas: ["natur", "bewegung"],
         materials: ["Körbchen", "Garten oder Park"],
         duration: "20-30 Min",
@@ -280,7 +280,7 @@ const activities = [
     {
         id: 28,
         title: "Steckspiele",
-        ageGroup: "1-2",
+        ageGroup: "krippe",
         areas: ["natur"],
         materials: ["Steckbox", "verschiedene Formen"],
         duration: "10-15 Min",
@@ -290,7 +290,7 @@ const activities = [
     {
         id: 29,
         title: "Gemeinsames Aufräumen",
-        ageGroup: "1-2",
+        ageGroup: "krippe",
         areas: ["ethik"],
         materials: ["Spielzeug", "Aufbewahrungsboxen"],
         duration: "10 Min",
@@ -300,7 +300,7 @@ const activities = [
     {
         id: 30,
         title: "Geräusche-Raten",
-        ageGroup: "1-2",
+        ageGroup: "krippe",
         areas: ["sprache", "natur"],
         materials: ["Haushaltsgegenstände", "Tuch zum Verdecken"],
         duration: "10 Min",
@@ -312,7 +312,7 @@ const activities = [
     {
         id: 31,
         title: "Rollenspiel 'Einkaufen'",
-        ageGroup: "2-3",
+        ageGroup: "krippe",
         areas: ["ethik", "sprache"],
         materials: ["Spiellebensmittel", "Tasche", "Kasse (optional)"],
         duration: "20-30 Min",
@@ -322,7 +322,7 @@ const activities = [
     {
         id: 32,
         title: "Farben-Sortier-Spiel",
-        ageGroup: "2-3",
+        ageGroup: "krippe",
         areas: ["natur"],
         materials: ["bunte Gegenstände", "farbige Schalen"],
         duration: "15-20 Min",
@@ -332,7 +332,7 @@ const activities = [
     {
         id: 33,
         title: "Schattenspiele",
-        ageGroup: "2-3",
+        ageGroup: "krippe",
         areas: ["natur"],
         materials: ["Lichtquelle", "Hände und Gegenstände"],
         duration: "15 Min",
@@ -342,7 +342,7 @@ const activities = [
     {
         id: 34,
         title: "Gefühle-Gesichter",
-        ageGroup: "2-3",
+        ageGroup: "krippe",
         areas: ["emotionen", "sprache"],
         materials: ["Spiegel", "Bilder von Gesichtern", "Pappteller"],
         duration: "20 Min",
@@ -352,7 +352,7 @@ const activities = [
     {
         id: 35,
         title: "Matschtisch",
-        ageGroup: "2-3",
+        ageGroup: "krippe",
         areas: ["natur", "gesundheit"],
         materials: ["Sand", "Wasser", "Schaufeln", "Förmchen"],
         duration: "30 Min",
@@ -362,7 +362,7 @@ const activities = [
     {
         id: 36,
         title: "Rhythmus-Werkstatt",
-        ageGroup: "2-3",
+        ageGroup: "krippe",
         areas: ["sprache"],
         materials: ["einfache Instrumente", "Töpfe", "Kochlöffel"],
         duration: "15-20 Min",
@@ -372,7 +372,7 @@ const activities = [
     {
         id: 37,
         title: "Balancier-Pfad",
-        ageGroup: "2-3",
+        ageGroup: "krippe",
         areas: ["bewegung", "gesundheit"],
         materials: ["Seil oder Kreppband am Boden", "Balancierbalken"],
         duration: "20 Min",
@@ -382,7 +382,7 @@ const activities = [
     {
         id: 38,
         title: "Puzzle-Zeit",
-        ageGroup: "2-3",
+        ageGroup: "krippe",
         areas: ["natur"],
         materials: ["altersgerechte Puzzles (4-12 Teile)"],
         duration: "15-20 Min",
@@ -392,7 +392,7 @@ const activities = [
     {
         id: 39,
         title: "Puppentheater",
-        ageGroup: "2-3",
+        ageGroup: "krippe",
         areas: ["sprache", "emotionen"],
         materials: ["Handpuppen", "improvisierte Bühne"],
         duration: "15-20 Min",
@@ -402,7 +402,7 @@ const activities = [
     {
         id: 40,
         title: "Schneiden üben",
-        ageGroup: "2-3",
+        ageGroup: "krippe",
         areas: ["bewegung"],
         materials: ["Kinderschere", "dickes Papier", "Vorlagen"],
         duration: "15 Min",
@@ -412,7 +412,7 @@ const activities = [
     {
         id: 41,
         title: "Reimspiele",
-        ageGroup: "2-3",
+        ageGroup: "krippe",
         areas: ["sprache"],
         materials: ["Bildkarten", "Reimbücher"],
         duration: "10-15 Min",
@@ -422,7 +422,7 @@ const activities = [
     {
         id: 42,
         title: "Tier-Bewegungen",
-        ageGroup: "2-3",
+        ageGroup: "krippe",
         areas: ["bewegung", "natur"],
         materials: ["Raum zum Bewegen", "evtl. Tierbilder"],
         duration: "15 Min",
@@ -432,7 +432,7 @@ const activities = [
     {
         id: 43,
         title: "Gemeinsames Backen",
-        ageGroup: "2-3",
+        ageGroup: "krippe",
         areas: ["gesundheit", "natur"],
         materials: ["einfache Zutaten", "Rührschüssel", "kindersichere Werkzeuge"],
         duration: "30-40 Min",
@@ -442,7 +442,7 @@ const activities = [
     {
         id: 44,
         title: "Spurenlesen im Sand",
-        ageGroup: "2-3",
+        ageGroup: "krippe",
         areas: ["natur"],
         materials: ["Sandkasten", "verschiedene Gegenstände zum Abdruck"],
         duration: "20 Min",
@@ -452,7 +452,7 @@ const activities = [
     {
         id: 45,
         title: "Gefühls-Geschichten",
-        ageGroup: "2-3",
+        ageGroup: "krippe",
         areas: ["emotionen", "sprache"],
         materials: ["Bilderbücher über Gefühle", "Kuscheltiere"],
         duration: "15-20 Min",
@@ -464,7 +464,7 @@ const activities = [
     {
         id: 46,
         title: "Experimentier-Station: Schwimmen und Sinken",
-        ageGroup: "3-6",
+        ageGroup: "kiga",
         areas: ["natur"],
         materials: ["Wasserbecken", "verschiedene Gegenstände", "Schürzen"],
         duration: "30-40 Min",
@@ -474,7 +474,7 @@ const activities = [
     {
         id: 47,
         title: "Zahlenweg im Garten",
-        ageGroup: "3-6",
+        ageGroup: "kiga",
         areas: ["natur"],
         materials: ["Kreide oder Zahlenkarten", "Outdoor-Bereich"],
         duration: "20-30 Min",
@@ -484,7 +484,7 @@ const activities = [
     {
         id: 48,
         title: "Geschichten-Werkstatt",
-        ageGroup: "3-6",
+        ageGroup: "kiga",
         areas: ["sprache", "emotionen"],
         materials: ["Papier", "Stifte", "evtl. digitale Aufnahme"],
         duration: "30-40 Min",
@@ -494,7 +494,7 @@ const activities = [
     {
         id: 49,
         title: "Regelspiele einführen",
-        ageGroup: "3-6",
+        ageGroup: "kiga",
         areas: ["ethik"],
         materials: ["altersgerechte Brettspiele", "Würfel", "Spielfiguren"],
         duration: "20-30 Min",
@@ -504,7 +504,7 @@ const activities = [
     {
         id: 50,
         title: "Yoga für Kinder",
-        ageGroup: "3-6",
+        ageGroup: "kiga",
         areas: ["bewegung", "gesundheit"],
         materials: ["Matten", "ruhige Musik", "Bildkarten mit Tier-Posen"],
         duration: "20-30 Min",
@@ -514,7 +514,7 @@ const activities = [
     {
         id: 51,
         title: "Forschertagebuch",
-        ageGroup: "3-6",
+        ageGroup: "kiga",
         areas: ["natur", "sprache"],
         materials: ["Notizbücher", "Stifte", "Lupen", "Kamera"],
         duration: "30 Min",
@@ -524,7 +524,7 @@ const activities = [
     {
         id: 52,
         title: "Konflikte lösen lernen",
-        ageGroup: "3-6",
+        ageGroup: "kiga",
         areas: ["ethik", "emotionen"],
         materials: ["Bildkarten zu Konfliktsituationen", "Kuscheltier als 'Friedensbringer'"],
         duration: "20 Min",
@@ -534,7 +534,7 @@ const activities = [
     {
         id: 53,
         title: "Buchstaben-Jagd",
-        ageGroup: "3-6",
+        ageGroup: "kiga",
         areas: ["sprache"],
         materials: ["Buchstabenkarten", "Alltagsgegenstände"],
         duration: "20-30 Min",
@@ -544,7 +544,7 @@ const activities = [
     {
         id: 54,
         title: "Kreativ-Werkstatt",
-        ageGroup: "3-6",
+        ageGroup: "kiga",
         areas: ["natur"],
         materials: ["Recyclingmaterial", "Kleber", "Scheren", "Farben"],
         duration: "40-60 Min",
@@ -554,7 +554,7 @@ const activities = [
     {
         id: 55,
         title: "Bewegungsgeschichte",
-        ageGroup: "3-6",
+        ageGroup: "kiga",
         areas: ["bewegung", "sprache"],
         materials: ["Raum zum Bewegen", "evtl. Musik"],
         duration: "20-30 Min",
@@ -564,7 +564,7 @@ const activities = [
     {
         id: 56,
         title: "Kulturelle Vielfalt entdecken",
-        ageGroup: "3-6",
+        ageGroup: "kiga",
         areas: ["ethik"],
         materials: ["Weltkarte", "Bilder", "Musik aus verschiedenen Ländern"],
         duration: "30 Min",
@@ -574,7 +574,7 @@ const activities = [
     {
         id: 57,
         title: "Mengen und Zahlen begreifen",
-        ageGroup: "3-6",
+        ageGroup: "kiga",
         areas: ["natur"],
         materials: ["Naturmaterialien", "Zahlenkarten", "Schalen"],
         duration: "20-30 Min",
@@ -584,7 +584,7 @@ const activities = [
     {
         id: 58,
         title: "Wetterbeobachtung",
-        ageGroup: "3-6",
+        ageGroup: "kiga",
         areas: ["natur"],
         materials: ["Wetter-Tagebuch", "Thermometer", "Symbole"],
         duration: "15 Min täglich",
@@ -594,7 +594,7 @@ const activities = [
     {
         id: 59,
         title: "Schattentheater",
-        ageGroup: "3-6",
+        ageGroup: "kiga",
         areas: ["sprache", "natur"],
         materials: ["Lichtquelle", "weißes Tuch", "Figuren aus Pappe"],
         duration: "30-40 Min",
@@ -604,7 +604,7 @@ const activities = [
     {
         id: 60,
         title: "Gesunde Brotzeit zubereiten",
-        ageGroup: "3-6",
+        ageGroup: "kiga",
         areas: ["gesundheit"],
         materials: ["Vollkornbrot", "Gemüse", "Aufstriche", "kindersichere Messer"],
         duration: "30 Min",
@@ -614,7 +614,7 @@ const activities = [
     {
         id: 61,
         title: "Kooperationsspiele",
-        ageGroup: "3-6",
+        ageGroup: "kiga",
         areas: ["ethik", "bewegung"],
         materials: ["Tuch", "Ball", "verschiedene Materialien"],
         duration: "20-30 Min",
@@ -624,7 +624,7 @@ const activities = [
     {
         id: 62,
         title: "Gefühls-Tagebuch",
-        ageGroup: "3-6",
+        ageGroup: "kiga",
         areas: ["emotionen"],
         materials: ["Heft", "Stifte", "Gefühls-Symbole"],
         duration: "15 Min",
@@ -634,7 +634,7 @@ const activities = [
     {
         id: 63,
         title: "Formensuche in der Natur",
-        ageGroup: "3-6",
+        ageGroup: "kiga",
         areas: ["natur"],
         materials: ["Sammelbeutel", "Outdoor-Bereich"],
         duration: "30 Min",
@@ -644,7 +644,7 @@ const activities = [
     {
         id: 64,
         title: "Geräusch-Geschichten",
-        ageGroup: "3-6",
+        ageGroup: "kiga",
         areas: ["sprache"],
         materials: ["Instrumente", "Alltagsgegenstände", "Aufnahmegerät"],
         duration: "30 Min",
@@ -654,12 +654,214 @@ const activities = [
     {
         id: 65,
         title: "Pflanzenwachstum beobachten",
-        ageGroup: "3-6",
+        ageGroup: "kiga",
         areas: ["natur", "gesundheit"],
         materials: ["Samen", "Erde", "Töpfe", "Gießkanne"],
         duration: "10 Min täglich über Wochen",
         description: "Eigene Pflanzen ziehen lehrt Verantwortung und biologische Zusammenhänge.",
         shortInstruction: "Pflanze gemeinsam Kresse oder Bohnen und dokumentiere das Wachstum."
+    },
+
+    // ===== Schulvorbereitung (5-6 Jahre) =====
+    {
+        id: 66,
+        title: "Buchstaben-Werkstatt",
+        ageGroup: "school",
+        areas: ["sprache"],
+        materials: ["Buchstabenkarten", "Sand", "Knete", "Stifte"],
+        duration: "30 Min",
+        description: "Buchstaben mit mehreren Sinnen erfassen - sehen, schreiben, formen, fühlen.",
+        shortInstruction: "Führe einen Buchstaben ein, schreibe ihn in Sand, forme ihn aus Knete und suche ihn in Wörtern."
+    },
+    {
+        id: 67,
+        title: "Zahlen und Mengen zuordnen",
+        ageGroup: "school",
+        areas: ["natur"],
+        materials: ["Zahlenkarten 1-20", "Muggelsteine", "Würfel"],
+        duration: "25-30 Min",
+        description: "Zahlenverständnis bis 20 festigen durch konkretes Handeln.",
+        shortInstruction: "Ordne Zahlenkarten passende Mengen zu, würfle und zähle, vergleiche Mengen."
+    },
+    {
+        id: 68,
+        title: "Schwungübungen für die Schrift",
+        ageGroup: "school",
+        areas: ["bewegung"],
+        materials: ["große Papierbögen", "dicke Stifte", "Schwungübungsvorlagen"],
+        duration: "20 Min",
+        description: "Feinmotorische Vorbereitung auf das Schreiben durch Schwünge und Schleifen.",
+        shortInstruction: "Male große Schwünge in die Luft, auf Papier, im Sand - von groß zu klein."
+    },
+    {
+        id: 69,
+        title: "Anlaute hören und erkennen",
+        ageGroup: "school",
+        areas: ["sprache"],
+        materials: ["Bildkarten", "Gegenstände", "Buchstabenkarten"],
+        duration: "20-25 Min",
+        description: "Phonologische Bewusstheit - welcher Laut ist am Anfang eines Wortes?",
+        shortInstruction: "Suche Gegenstände mit gleichem Anfangslaut, ordne Bilder zu Buchstaben, klatsche Silben."
+    },
+    {
+        id: 70,
+        title: "Konzentrationsspiele",
+        ageGroup: "school",
+        areas: ["ethik"],
+        materials: ["Memory-Karten", "Puzzle", "Fehlerbilder"],
+        duration: "20-30 Min",
+        description: "Ausdauer und Konzentration für längere Arbeitsphasen trainieren.",
+        shortInstruction: "Spiele Memory, suche Unterschiede in Bildern, löse knifflige Rätsel."
+    },
+    {
+        id: 71,
+        title: "Stifthaltung üben",
+        ageGroup: "school",
+        areas: ["bewegung"],
+        materials: ["Dreikant-Stifte", "Nachspurbilder", "Labyrinthe"],
+        duration: "15-20 Min",
+        description: "Korrekte Stifthaltung und Stiftführung für ermüdungsfreies Schreiben.",
+        shortInstruction: "Zeige Dreipunktgriff, male Labyrinthe nach, spure Formen und Muster nach."
+    },
+    {
+        id: 72,
+        title: "Uhr lesen lernen",
+        ageGroup: "school",
+        areas: ["natur"],
+        materials: ["Lernuhr", "Tagesablauf-Bilder", "Zeiger zum Einstellen"],
+        duration: "20-25 Min",
+        description: "Zeitverständnis entwickeln - volle und halbe Stunden erkennen.",
+        shortInstruction: "Stelle Uhrzeiten ein, ordne Tagesaktivitäten zu Uhrzeiten, spiele 'Wie spät ist es?'"
+    },
+    {
+        id: 73,
+        title: "Formen und Muster erkennen",
+        ageGroup: "school",
+        areas: ["natur"],
+        materials: ["geometrische Formen", "Musterkarten", "Legematerial"],
+        duration: "25 Min",
+        description: "Geometrisches Verständnis und Mustererkennung für Mathematik.",
+        shortInstruction: "Lege Muster fort, erkenne Formen in der Umgebung, baue Figuren nach Vorlage."
+    },
+    {
+        id: 74,
+        title: "Schulweg üben",
+        ageGroup: "school",
+        areas: ["gesundheit", "ethik"],
+        materials: ["eventuell Verkehrsschilder-Karten", "Outdoor"],
+        duration: "30-40 Min",
+        description: "Verkehrserziehung und Orientierung im Straßenverkehr.",
+        shortInstruction: "Gehe den Schulweg ab, übe Straßenüberquerung, bespreche Verkehrsregeln und Gefahren."
+    },
+    {
+        id: 75,
+        title: "Geschichten nacherzählen",
+        ageGroup: "school",
+        areas: ["sprache", "emotionen"],
+        materials: ["Bilderbuch", "Bildkarten zur Geschichte", "evtl. Aufnahmegerät"],
+        duration: "25-30 Min",
+        description: "Sprachliche Ausdrucksfähigkeit und Gedächtnis schulen.",
+        shortInstruction: "Lies eine Geschichte vor, lass sie nacherzählen mit Hilfe von Bildkarten, stelle W-Fragen."
+    },
+    {
+        id: 76,
+        title: "Schulranzen packen",
+        ageGroup: "school",
+        areas: ["ethik"],
+        materials: ["Schulranzen", "Schulmaterialien (Hefte, Stifte, Jausenbox)"],
+        duration: "15-20 Min",
+        description: "Selbstorganisation und Verantwortung für eigene Sachen üben.",
+        shortInstruction: "Übe systematisches Packen, benenne Schulsachen, sortiere nach Wichtigkeit."
+    },
+    {
+        id: 77,
+        title: "Zuhören und Anweisungen folgen",
+        ageGroup: "school",
+        areas: ["sprache", "ethik"],
+        materials: ["keine oder einfache Materialien"],
+        duration: "20 Min",
+        description: "Mehrstufige Arbeitsanweisungen verstehen und umsetzen.",
+        shortInstruction: "Gib zunehmend komplexe Aufträge (erst 1-Schritt, dann 2-3 Schritte) und lasse sie ausführen."
+    },
+    {
+        id: 78,
+        title: "Linien und Formen schneiden",
+        ageGroup: "school",
+        areas: ["bewegung"],
+        materials: ["Schere", "Vorlagen mit Linien", "dickes Papier"],
+        duration: "20 Min",
+        description: "Präzises Schneiden als Vorbereitung für Bastelarbeiten in der Schule.",
+        shortInstruction: "Schneide gerade Linien, Kurven, Zickzack, dann einfache Formen aus."
+    },
+    {
+        id: 79,
+        title: "Soziales Miteinander in der Gruppe",
+        ageGroup: "school",
+        areas: ["ethik", "emotionen"],
+        materials: ["Kooperationsspiele", "Gesprächsrunden"],
+        duration: "30 Min",
+        description: "Sich melden, warten, andere ausreden lassen - wichtige Schulkompetenzen.",
+        shortInstruction: "Übe Gesprächsregeln im Morgenkreis, spiele Spiele wo man sich abwechseln muss."
+    },
+    {
+        id: 80,
+        title: "Arbeitsblätter bearbeiten",
+        ageGroup: "school",
+        areas: ["natur"],
+        materials: ["einfache Vorschulblätter", "Stifte", "Radiergummi"],
+        duration: "15-20 Min",
+        description: "An strukturiertes Arbeiten auf Papier gewöhnen.",
+        shortInstruction: "Biete altersgerechte Arbeitsblätter an, zeige wie man Fehler korrigiert, lobe Ausdauer."
+    },
+    {
+        id: 81,
+        title: "Reimen und Silben klatschen",
+        ageGroup: "school",
+        areas: ["sprache"],
+        materials: ["Bildkarten", "Reimwörter-Memory"],
+        duration: "20 Min",
+        description: "Phonologische Bewusstheit als Grundlage für Lesen und Schreiben.",
+        shortInstruction: "Finde Reimpaare, klatsche Silben von Namen und Wörtern, erfinde Unsinn-Reime."
+    },
+    {
+        id: 82,
+        title: "Plus und Minus im Zahlenraum 10",
+        ageGroup: "school",
+        areas: ["natur"],
+        materials: ["Rechenplättchen", "Würfel", "Zahlenkarten"],
+        duration: "25 Min",
+        description: "Erste Rechenoperationen mit konkretem Material verstehen.",
+        shortInstruction: "Lege Rechengeschichten mit Plättchen, würfle und addiere, nimm weg und zähle was bleibt."
+    },
+    {
+        id: 83,
+        title: "Ordnung halten am Arbeitsplatz",
+        ageGroup: "school",
+        areas: ["ethik"],
+        materials: ["Schulsachen", "Ordnungssysteme"],
+        duration: "15 Min",
+        description: "Arbeitsplatz strukturiert gestalten und pflegen.",
+        shortInstruction: "Richte einen 'Schul-Arbeitsplatz' ein, übe Aufräumen nach Aktivitäten, sortiere Materialien."
+    },
+    {
+        id: 84,
+        title: "Eigenen Namen schreiben",
+        ageGroup: "school",
+        areas: ["sprache"],
+        materials: ["Namenskarte als Vorlage", "Stifte", "Papier"],
+        duration: "15-20 Min",
+        description: "Der eigene Name als erstes bedeutungsvolles Wort.",
+        shortInstruction: "Spure den Namen nach, schreibe ihn mit Vorlage, dann aus dem Gedächtnis, male ihn kreativ."
+    },
+    {
+        id: 85,
+        title: "Konflikte verbal lösen",
+        ageGroup: "school",
+        areas: ["emotionen", "ethik"],
+        materials: ["Gefühlskarten", "Konfliktlösungs-Plakat"],
+        duration: "20-25 Min",
+        description: "Konflikte mit Worten statt Handlungen lösen lernen.",
+        shortInstruction: "Bespreche Konflikte, übe Ich-Botschaften, rolle Lösungsstrategien durch, erstelle Friedensregeln."
     }
 ];
 
@@ -675,8 +877,8 @@ const educationAreas = {
 
 // Altersgruppen-Definitionen
 const ageGroups = {
-    "0-1": { label: "0-1 Jahr", icon: "🍼" },
-    "1-2": { label: "1-2 Jahre", icon: "🧸" },
-    "2-3": { label: "2-3 Jahre", icon: "🎨" },
-    "3-6": { label: "3-6 Jahre", icon: "🎒" }
+    "babies": { label: "Babys (0-1)", icon: "🍼" },
+    "krippe": { label: "Krippe (1-3)", icon: "🧸" },
+    "kiga": { label: "Kindergarten (3-5)", icon: "🎨" },
+    "school": { label: "Schulvorbereitung", icon: "🎒" }
 };
