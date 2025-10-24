@@ -155,8 +155,108 @@ const activities = [
         description: "Das Beobachten von schwebenden Objekten fasziniert und fördert die Augenfolgebewegung.",
         shortInstruction: "Puste sanft Seifenblasen oder lass Federn durch die Luft schweben - das Baby beobachtet und greift vielleicht danach."
     },
+    {
+        id: 86,
+        title: "Massage und Körperkontakt",
+        ageGroup: "babies",
+        areas: ["gesundheit", "emotionen"],
+        materials: ["Babyöl", "weiche Unterlage"],
+        duration: "10-15 Min",
+        description: "Sanfte Babymassage stärkt die Bindung und fördert Körperbewusstsein.",
+        shortInstruction: "Massiere sanft Arme, Beine und Rücken mit warmem Öl - spreche oder singe dabei."
+    },
+    {
+        id: 87,
+        title: "Unterschiedliche Texturen erfühlen",
+        ageGroup: "babies",
+        areas: ["natur"],
+        materials: ["Samt", "Cord", "Seide", "Wolle", "Schmirgelpapier"],
+        duration: "10 Min",
+        description: "Verschiedene Oberflächen stimulieren den Tastsinn.",
+        shortInstruction: "Lass das Baby verschiedene Stoffe und Materialien mit Händen und Füßen erkunden."
+    },
+    {
+        id: 88,
+        title: "Gemeinsames Singen",
+        ageGroup: "babies",
+        areas: ["sprache", "emotionen"],
+        materials: ["eigene Stimme"],
+        duration: "5-10 Min",
+        description: "Wiegenlieder und einfache Melodien beruhigen und fördern Sprachentwicklung.",
+        shortInstruction: "Singe vertraute Lieder, variiere Lautstärke und Tempo, beobachte die Reaktionen."
+    },
+    {
+        id: 89,
+        title: "Bauchtanz-Zeit",
+        ageGroup: "babies",
+        areas: ["bewegung"],
+        materials: ["weiche Matte", "interessante Spielsachen"],
+        duration: "5-10 Min",
+        description: "Bauchlage stärkt Nacken- und Rückenmuskulatur.",
+        shortInstruction: "Lege das Baby auf den Bauch, platziere Spielzeug in Sichtweite als Anreiz zum Heben des Kopfes."
+    },
+    {
+        id: 90,
+        title: "Stapelbecher erkunden",
+        ageGroup: "babies",
+        areas: ["natur"],
+        materials: ["Stapelbecher", "weiche Unterlage"],
+        duration: "10 Min",
+        description: "Becher ineinander stecken, stapeln und umwerfen fördert Hand-Auge-Koordination.",
+        shortInstruction: "Zeige wie Becher ineinander passen, lass das Baby experimentieren und entdecken."
+    },
+    {
+        id: 91,
+        title: "Versteckspiele mit Spielzeug",
+        ageGroup: "babies",
+        areas: ["natur", "emotionen"],
+        materials: ["Lieblingsspielzeug", "Tuch"],
+        duration: "5-10 Min",
+        description: "Gegenstände verstecken und wiederfinden fördert Objektpermanenz.",
+        shortInstruction: "Verstecke ein Spielzeug unter einem Tuch und lass das Baby es suchen und finden."
+    },
+    {
+        id: 92,
+        title: "Mobile beobachten",
+        ageGroup: "babies",
+        areas: ["natur"],
+        materials: ["Mobile oder hängende Objekte"],
+        duration: "5-10 Min",
+        description: "Bewegliche Objekte verfolgen schult visuelle Wahrnehmung.",
+        shortInstruction: "Hänge ein Mobile auf oder bewege sanft bunte Objekte - das Baby folgt mit den Augen."
+    },
+    {
+        id: 93,
+        title: "Erste Bilderbücher",
+        ageGroup: "babies",
+        areas: ["sprache"],
+        materials: ["Stoffbücher", "Badebücher"],
+        duration: "5 Min",
+        description: "Kontrastreiche Bilder und einfache Formen faszinieren.",
+        shortInstruction: "Zeige Seite für Seite, benenne was zu sehen ist, lass das Baby die Seiten berühren."
+    },
+    {
+        id: 94,
+        title: "Körperteile benennen",
+        ageGroup: "babies",
+        areas: ["sprache", "gesundheit"],
+        materials: ["keine"],
+        duration: "5 Min",
+        description: "Spielerisch Körperteile kennenlernen fördert Körperbewusstsein und Sprache.",
+        shortInstruction: "Berühre sanft Nase, Bauch, Füße und benenne sie - 'Das ist deine Nase!'"
+    },
+    {
+        id: 95,
+        title: "Krabbel-Parcours",
+        ageGroup: "babies",
+        areas: ["bewegung"],
+        materials: ["Kissen", "Decken", "weiche Hindernisse"],
+        duration: "10-15 Min",
+        description: "Anreize zum Krabbeln fördern motorische Entwicklung.",
+        shortInstruction: "Baue einen weichen Parcours mit kleinen Hindernissen, ermutige zum Krabbeln."
+    },
 
-    // ===== Altersgruppe 1-2 Jahre =====
+    // ===== Krippe (1-3 Jahre) =====
     {
         id: 16,
         title: "Schüttübungen mit Alltagsmaterial",
@@ -661,6 +761,106 @@ const activities = [
         description: "Eigene Pflanzen ziehen lehrt Verantwortung und biologische Zusammenhänge.",
         shortInstruction: "Pflanze gemeinsam Kresse oder Bohnen und dokumentiere das Wachstum."
     },
+    {
+        id: 96,
+        title: "Farben mischen",
+        ageGroup: "kiga",
+        areas: ["natur"],
+        materials: ["Wasserfarben", "Becher", "Wasser", "Pipetten"],
+        duration: "25-30 Min",
+        description: "Experimentieren mit Primärfarben fördert wissenschaftliches Denken.",
+        shortInstruction: "Lass Kinder Rot + Gelb, Blau + Gelb, Rot + Blau mischen und neue Farben entdecken."
+    },
+    {
+        id: 97,
+        title: "Schatzsuche mit Hinweisen",
+        ageGroup: "kiga",
+        areas: ["sprache", "bewegung"],
+        materials: ["Hinweiszettel", "kleiner Schatz", "Outdoor-Bereich"],
+        duration: "30-40 Min",
+        description: "Hinweise lesen und interpretieren fördert Lesemotivation und logisches Denken.",
+        shortInstruction: "Verstecke Hinweise im Garten, die Schritt für Schritt zum Schatz führen."
+    },
+    {
+        id: 98,
+        title: "Verkehrserziehung spielerisch",
+        ageGroup: "kiga",
+        areas: ["gesundheit", "ethik"],
+        materials: ["Fahrzeuge", "Verkehrsschilder", "Hof oder Turnraum"],
+        duration: "25-30 Min",
+        description: "Verkehrsregeln im Spiel verstehen und anwenden.",
+        shortInstruction: "Baue eine Straße mit Ampel und Zebrastreifen, spiele Situationen durch."
+    },
+    {
+        id: 99,
+        title: "Instrumente basteln",
+        ageGroup: "kiga",
+        areas: ["natur", "sprache"],
+        materials: ["Recyclingmaterial", "Reis", "Gummis", "Klebeband"],
+        duration: "40 Min",
+        description: "Eigene Instrumente herstellen verbindet Kreativität und Musik.",
+        shortInstruction: "Bastle Rasseln aus Dosen, Trommeln aus Töpfen, Gitarren aus Schachteln."
+    },
+    {
+        id: 100,
+        title: "Erste Erfahrungen mit Geld",
+        ageGroup: "kiga",
+        areas: ["natur", "ethik"],
+        materials: ["Spielgeld", "Preisschilder", "Kaufladenzubehör"],
+        duration: "25 Min",
+        description: "Spielerischer Umgang mit Geld fördert mathematisches Verständnis.",
+        shortInstruction: "Spiele Einkaufen mit Münzen und Scheinen, zähle zusammen, gib Wechselgeld."
+    },
+    {
+        id: 101,
+        title: "Sinnes-Parcours",
+        ageGroup: "kiga",
+        areas: ["natur", "bewegung"],
+        materials: ["verschiedene Materialien", "Barfußpfad-Elemente"],
+        duration: "20-30 Min",
+        description: "Alle Sinne werden auf einem Parcours angesprochen.",
+        shortInstruction: "Baue Stationen zum Fühlen, Riechen, Hören, Schmecken - Kinder durchlaufen barfuß."
+    },
+    {
+        id: 102,
+        title: "Detektiv-Spiele",
+        ageGroup: "kiga",
+        areas: ["natur", "sprache"],
+        materials: ["Lupe", "Spuren", "Rätsel"],
+        duration: "30 Min",
+        description: "Rätsel lösen und Spuren suchen fördert Beobachtungsgabe.",
+        shortInstruction: "Verstecke Hinweise und Spuren, lass Kinder Detektiv spielen und Rätsel lösen."
+    },
+    {
+        id: 103,
+        title: "Gefühls-Charade",
+        ageGroup: "kiga",
+        areas: ["emotionen"],
+        materials: ["Gefühls-Karten"],
+        duration: "20 Min",
+        description: "Emotionen darstellen und erraten fördert emotionale Intelligenz.",
+        shortInstruction: "Ziehe eine Gefühls-Karte, stelle das Gefühl pantomimisch dar, andere raten."
+    },
+    {
+        id: 104,
+        title: "Magnet-Experimente",
+        ageGroup: "kiga",
+        areas: ["natur"],
+        materials: ["Magnete", "verschiedene Gegenstände", "Tabelle"],
+        duration: "25 Min",
+        description: "Entdecken welche Materialien magnetisch sind fördert wissenschaftliches Forschen.",
+        shortInstruction: "Teste mit Magneten verschiedene Gegenstände, dokumentiere was haftet und was nicht."
+    },
+    {
+        id: 105,
+        title: "Freundschafts-Armbänder knüpfen",
+        ageGroup: "kiga",
+        areas: ["bewegung", "emotionen"],
+        materials: ["Wolle", "Perlen", "Schere"],
+        duration: "30 Min",
+        description: "Feinmotorik und soziale Bindungen werden gestärkt.",
+        shortInstruction: "Zeige einfache Knüpftechnik, lass Kinder Armbänder für Freunde gestalten."
+    },
 
     // ===== Schulvorbereitung (5-6 Jahre) =====
     {
@@ -862,6 +1062,106 @@ const activities = [
         duration: "20-25 Min",
         description: "Konflikte mit Worten statt Handlungen lösen lernen.",
         shortInstruction: "Bespreche Konflikte, übe Ich-Botschaften, rolle Lösungsstrategien durch, erstelle Friedensregeln."
+    },
+    {
+        id: 106,
+        title: "Würfelspiele mit Zahlen",
+        ageGroup: "school",
+        areas: ["natur"],
+        materials: ["Würfel", "Spielplan", "Spielfiguren"],
+        duration: "20-25 Min",
+        description: "Spielerisch Zahlen erkennen und zählen.",
+        shortInstruction: "Spiele einfache Würfelspiele, bei denen gezählt und vorwärts gezogen wird."
+    },
+    {
+        id: 107,
+        title: "Gedächtnistraining",
+        ageGroup: "school",
+        areas: ["natur"],
+        materials: ["Tablett", "10-15 Gegenstände", "Tuch"],
+        duration: "15-20 Min",
+        description: "Konzentration und Merkfähigkeit für die Schule trainieren.",
+        shortInstruction: "Zeige Gegenstände, decke ab, entferne einen - welcher fehlt?"
+    },
+    {
+        id: 108,
+        title: "Symmetrie entdecken",
+        ageGroup: "school",
+        areas: ["natur"],
+        materials: ["Spiegel", "Papier", "Farben", "Naturmaterialien"],
+        duration: "25 Min",
+        description: "Mathematisches Konzept der Symmetrie verstehen.",
+        shortInstruction: "Falte Papier, male eine Hälfte, klappe auf - entdecke Spiegelbild in der Natur."
+    },
+    {
+        id: 109,
+        title: "Erste englische Wörter",
+        ageGroup: "school",
+        areas: ["sprache"],
+        materials: ["Bildkarten", "Lieder auf Englisch"],
+        duration: "15-20 Min",
+        description: "Spielerischer Erstkontakt mit Fremdsprache.",
+        shortInstruction: "Lerne einfache Wörter (Farben, Zahlen, Tiere) mit Liedern und Spielen."
+    },
+    {
+        id: 110,
+        title: "Linkshänder-Unterstützung",
+        ageGroup: "school",
+        areas: ["bewegung"],
+        materials: ["Linkshänder-Schere", "spezielles Schreibmaterial"],
+        duration: "individuell",
+        description: "Linkshändige Kinder gezielt fördern.",
+        shortInstruction: "Biete angepasstes Material, achte auf Sitzhaltung und Blattlage beim Schreiben."
+    },
+    {
+        id: 111,
+        title: "Kalender und Wochentage",
+        ageGroup: "school",
+        areas: ["natur", "sprache"],
+        materials: ["Kalender", "Tageskarten", "Jahreszeitenbilder"],
+        duration: "15 Min täglich",
+        description: "Zeitliches Verständnis für Tage, Wochen, Monate entwickeln.",
+        shortInstruction: "Markiere jeden Tag im Kalender, benenne Wochentag, zähle bis zum Wochenende."
+    },
+    {
+        id: 112,
+        title: "Tisch decken und Manieren",
+        ageGroup: "school",
+        areas: ["ethik", "gesundheit"],
+        materials: ["Geschirr", "Besteck", "Servietten"],
+        duration: "20 Min",
+        description: "Tischkultur und Selbständigkeit beim Essen.",
+        shortInstruction: "Übe Tisch decken, richtiges Sitzen, Besteck halten, Wartezeiten einhalten."
+    },
+    {
+        id: 113,
+        title: "Logikrätsel",
+        ageGroup: "school",
+        areas: ["natur"],
+        materials: ["Rätselkarten", "Sudoku für Kinder", "Logik-Spiele"],
+        duration: "20 Min",
+        description: "Logisches Denken für Mathematik vorbereiten.",
+        shortInstruction: "Löse altersgerechte Sudokus, Muster-Rätsel und Logikaufgaben."
+    },
+    {
+        id: 114,
+        title: "Gefühle regulieren lernen",
+        ageGroup: "school",
+        areas: ["emotionen", "gesundheit"],
+        materials: ["Gefühlsthermometer", "Entspannungsübungen"],
+        duration: "15-20 Min",
+        description: "Emotionsregulation als wichtige Schulkompetenz.",
+        shortInstruction: "Benenne Gefühle, zeige auf Thermometer, übe Atemtechniken zum Beruhigen."
+    },
+    {
+        id: 115,
+        title: "Telefonieren üben",
+        ageGroup: "school",
+        areas: ["sprache", "ethik"],
+        materials: ["Spieltelefone oder ausrangierte Telefone"],
+        duration: "15 Min",
+        description: "Kommunikation am Telefon für Notfälle vorbereiten.",
+        shortInstruction: "Übe Namen nennen, Adresse sagen, höfliche Begrüßung und Verabschiedung."
     }
 ];
 
