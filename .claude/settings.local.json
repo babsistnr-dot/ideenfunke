@@ -6,7 +6,8 @@
       "Bash(git commit:*)",
       "Bash(gh repo create:*)",
       "Bash(explorer index.html)",
-      "Bash(start \"\" \"c:\\Users\\Babsi\\Documents\\Master Elementarpädagogik\\ideenfunke\\index.html\")"
+      "Bash(start \"\" \"c:\\Users\\Babsi\\Documents\\Master Elementarpädagogik\\ideenfunke\\index.html\")",
+      "Bash(git push)"
     ],
     "deny": [],
     "ask": []

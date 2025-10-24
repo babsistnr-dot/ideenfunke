@@ -158,6 +158,103 @@ h2 {
     color: var(--primary-dark);
 }
 
+/* ===== Bildungsbereich-Filter (F2) ===== */
+.filter-section {
+    background: var(--background);
+    padding: var(--spacing-lg);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-sm);
+    margin-bottom: var(--spacing-xl);
+    display: none; /* Initially hidden, shown after age selection */
+}
+
+.filter-section.visible {
+    display: block;
+}
+
+.filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-sm);
+    margin-top: var(--spacing-md);
+}
+
+.filter-btn {
+    background: white;
+    border: 2px solid var(--text-light);
+    border-radius: var(--border-radius-sm);
+    padding: var(--spacing-sm) var(--spacing-md);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    min-height: 44px;
+    font-size: 0.95rem;
+    font-family: var(--font-main);
+    font-weight: 500;
+}
+
+.filter-btn .filter-icon {
+    font-size: 1.3rem;
+}
+
+.filter-btn .filter-label {
+    color: var(--text-medium);
+}
+
+.filter-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.filter-btn:focus {
+    outline: 3px solid var(--primary-color);
+    outline-offset: 2px;
+}
+
+/* Active filter button */
+.filter-btn.active {
+    border-width: 2px;
+    box-shadow: var(--shadow-md);
+}
+
+/* Color coding for education areas */
+.filter-btn[data-area="all"].active {
+    background: var(--primary-light);
+    border-color: var(--primary-color);
+}
+
+.filter-btn[data-area="emotionen"].active {
+    background: rgba(230, 57, 70, 0.1);
+    border-color: var(--emotionen);
+}
+
+.filter-btn[data-area="ethik"].active {
+    background: rgba(155, 89, 182, 0.1);
+    border-color: var(--ethik);
+}
+
+.filter-btn[data-area="sprache"].active {
+    background: rgba(52, 152, 219, 0.1);
+    border-color: var(--sprache);
+}
+
+.filter-btn[data-area="bewegung"].active {
+    background: rgba(39, 174, 96, 0.1);
+    border-color: var(--bewegung);
+}
+
+.filter-btn[data-area="gesundheit"].active {
+    background: rgba(243, 156, 18, 0.1);
+    border-color: var(--gesundheit);
+}
+
+.filter-btn[data-area="natur"].active {
+    background: rgba(22, 160, 133, 0.1);
+    border-color: var(--natur);
+}
+
 /* ===== Aktivitätsbereich ===== */
 .activities-section {
     background: var(--background);
