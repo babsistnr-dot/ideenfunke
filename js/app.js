@@ -252,6 +252,43 @@ function createActivityCard(activity) {
     meta.appendChild(ageBadge);
     meta.appendChild(timeBadge);
 
+    // Entwicklungsziele
+    if (activity.goals && activity.goals.length > 0) {
+        const goalsContainer = document.createElement('div');
+        goalsContainer.className = 'activity-goals';
+
+        const goalsTitle = document.createElement('span');
+        goalsTitle.className = 'activity-goals-title';
+        goalsTitle.textContent = '🎯 Fördert:';
+        goalsContainer.appendChild(goalsTitle);
+
+        // Zeige maximal 3 Ziele
+        activity.goals.slice(0, 3).forEach(goalKey => {
+            if (developmentGoals[goalKey]) {
+                const goalBadge = document.createElement('span');
+                goalBadge.className = 'badge badge-goal';
+
+                const goalIcon = document.createElement('span');
+                goalIcon.className = 'badge-goal-icon';
+                goalIcon.textContent = developmentGoals[goalKey].icon;
+
+                const goalName = document.createElement('span');
+                goalName.textContent = developmentGoals[goalKey].name;
+
+                goalBadge.appendChild(goalIcon);
+                goalBadge.appendChild(goalName);
+                goalsContainer.appendChild(goalBadge);
+            }
+        });
+
+        card.appendChild(title);
+        card.appendChild(meta);
+        card.appendChild(goalsContainer);
+    } else {
+        card.appendChild(title);
+        card.appendChild(meta);
+    }
+
     // Beschreibung
     const description = document.createElement('p');
     description.className = 'activity-description';
@@ -274,9 +311,7 @@ function createActivityCard(activity) {
     materials.appendChild(materialsTitle);
     materials.appendChild(materialsList);
 
-    // Zusammenbauen
-    card.appendChild(title);
-    card.appendChild(meta);
+    // Zusammenbauen (Titel und Meta wurden bereits oben hinzugefügt)
     card.appendChild(description);
     card.appendChild(materials);
 
