@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="IdeenFunke - Evidenzbasierte Aktivitätsvorschläge für Elementarpädagog:innen">
+    <title>IdeenFunke - Aktivitäten für den Kindergarten</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🎨 IdeenFunke</h1>
+            <p class="tagline">Evidenzbasierte Aktivitätsideen für deinen Kindergartenalltag</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Altersauswahl (F1) -->
+        <section class="age-selection">
+            <h2>Wähle eine Altersgruppe:</h2>
+            <div class="age-buttons">
+                <button class="age-btn" data-age="0-1" aria-label="0 bis 1 Jahr">
+                    <span class="icon">🍼</span>
+                    <span class="label">0-1 Jahr</span>
+                </button>
+                <button class="age-btn" data-age="1-2" aria-label="1 bis 2 Jahre">
+                    <span class="icon">🧸</span>
+                    <span class="label">1-2 Jahre</span>
+                </button>
+                <button class="age-btn" data-age="2-3" aria-label="2 bis 3 Jahre">
+                    <span class="icon">🎨</span>
+                    <span class="label">2-3 Jahre</span>
+                </button>
+                <button class="age-btn" data-age="3-6" aria-label="3 bis 6 Jahre">
+                    <span class="icon">🎒</span>
+                    <span class="label">3-6 Jahre</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- Aktivitätsanzeige (F3) -->
+        <section class="activities-section" id="activitiesSection">
+            <div class="section-header">
+                <h2 id="activitiesTitle">Aktivitätsideen</h2>
+                <!-- "Neue Ideen" Button (F4) -->
+                <button class="btn-secondary" id="newIdeasBtn" aria-label="Neue Aktivitätsideen laden">
+                    🔄 Neue Ideen
+                </button>
+            </div>
+
+            <div class="activities-grid" id="activitiesGrid">
+                <!-- Aktivitätskarten werden hier dynamisch eingefügt -->
+            </div>
+
+            <div class="empty-state" id="emptyState">
+                <p>👆 Wähle eine Altersgruppe, um Aktivitätsideen zu sehen</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 IdeenFunke - Entwickelt mit 💛 für Elementarpädagog:innen</p>
+            <p class="footer-note">Basierend auf evidenzbasierter Pädagogik und dem österreichischen Bildungsrahmenplan</p>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
