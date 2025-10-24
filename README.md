@@ -12,8 +12,9 @@ IdeenFunke ist ein digitales Tool für Elementarpädagog:innen, das evidenzbasie
 - **Wissenslücke**: Nicht alle Fachkräfte haben gleichermaßen Zugriff auf aktuelle pädagogische Literatur
 
 ### Zielgruppe
-- Primär: Elementarpädagog:innen in österreichischen Kindergärten
-- Sekundär: Tageseltern, Frühe Hilfen, Eltern
+- **Primär**: Elementarpädagog:innen in österreichischen Kindergärten und Krippen
+- **Altersgruppen**: Krippe (1-3 Jahre), Kindergarten (3-5 Jahre), Schulvorbereitung (5-6 Jahre)
+- **Sekundär**: Tageseltern, Frühe Hilfen
 
 ### Fachlicher Hintergrund
 Die Aktivitäten basieren auf:

@@ -1420,11 +1420,13 @@ const educationAreas = {
 
 // Altersgruppen-Definitionen
 const ageGroups = {
-    "babies": { label: "Babys (0-1)", icon: "🍼" },
     "krippe": { label: "Krippe (1-3)", icon: "🧸" },
     "kiga": { label: "Kindergarten (3-5)", icon: "🎨" },
     "school": { label: "Schulvorbereitung", icon: "🎒" }
 };
+
+// Hinweis: Baby-Aktivitäten (ageGroup: "babies") bleiben in der Datenbank,
+// werden aber nicht mehr angezeigt, da die Altersgruppe für Elementarpädagogik nicht relevant ist.
 
 // Themen-Definitionen
 const themes = {
