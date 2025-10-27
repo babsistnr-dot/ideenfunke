@@ -1,0 +1,6 @@
+Android SDK Location (für Umgebungsvariablen):
+
+C:\Users\Babsi\AppData\Local\Android\Sdk
+
+Dieser Pfad wird später für ANDROID_HOME benötigt.
+Datum: 2025-10-27
