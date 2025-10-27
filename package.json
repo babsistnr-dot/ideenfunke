@@ -1,0 +1,29 @@
+{
+  "name": "ideenfunke",
+  "version": "1.0.0",
+  "description": "Evidenzbasierte Aktivitäten für österreichische Elementarpädagog:innen",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 8080",
+    "sync": "npx cap sync",
+    "open:android": "npx cap open android"
+  },
+  "keywords": [
+    "kindergarten",
+    "elementarpädagogik",
+    "aktivitäten",
+    "krippe",
+    "early-childhood-education"
+  ],
+  "author": "Babsi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/babsistnr-dot/ideenfunke"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.4",
+    "@capacitor/cli": "^7.4.4",
+    "@capacitor/core": "^7.4.4"
+  }
+}

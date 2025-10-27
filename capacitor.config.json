@@ -1,0 +1,12 @@
+{
+  "appId": "at.ideenfunke.app",
+  "appName": "IdeenFunke",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "allowMixedContent": true,
+    "backgroundColor": "#FFE5DC"
+  }
+}

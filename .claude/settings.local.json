@@ -7,7 +7,17 @@
       "Bash(gh repo create:*)",
       "Bash(explorer index.html)",
       "Bash(start \"\" \"c:\\Users\\Babsi\\Documents\\Master Elementarpädagogik\\ideenfunke\\index.html\")",
-      "Bash(git push)"
+      "Bash(git push)",
+      "Bash(node --version:*)",
+      "Bash(npm:*)",
+      "Bash(java:*)",
+      "Bash(where:*)",
+      "Bash(npx cap add:*)",
+      "Bash(if exist android rmdir /s /q android)",
+      "Bash(powershell -Command:*)",
+      "Bash(xcopy:*)",
+      "Bash(copy /Y index.html wwwindex.html)",
+      "Bash(dir:*)"
     ],
     "deny": [],
     "ask": []

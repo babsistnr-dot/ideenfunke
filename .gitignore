@@ -26,3 +26,21 @@ npm-debug.log*
 # Temporary files
 *.tmp
 .cache/
+
+# Capacitor
+.capacitor/
+android/
+ios/
+www/
+
+# Android Studio
+*.iml
+.gradle/
+local.properties
+.idea/
+*.keystore
+*.jks
+key.properties
+
+# Package lock files
+package-lock.json
